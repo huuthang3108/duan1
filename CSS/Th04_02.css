@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.div-bg {
+  background-color: blanchedalmond; /* Màu nền xanh nhạt */
+  border: 1px solid gold; /* Viền màu xanh đậm */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.div-bg:nth-child(2n) {
+  background-color: greenyellow; /* Màu nền vàng nhạt cho các div chẵn */
+  border: 1px solid yellow; /* Viền màu vàng đậm cho các div chẵn */
+}
+
+.div-bg span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.div-bg b {
+  color: rebeccapurple; /* Màu chữ xanh đậm */
+}
+
+.div-bg br {
+  margin-bottom: 5px;
+}
